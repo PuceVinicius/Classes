@@ -1,0 +1,24 @@
+<h1>Adicionar aviso</h1>
+<%= form_for :aviso, url: avisos_path do |f| %>
+  <% if @aviso.errors.any? %>
+    <% @aviso.errors.full_messages.each do |m| %>
+      <div class="alert alert-danger"><%= m %></div>
+    <%end%>
+  <%end%>
+  <p>
+    <%= f.label :title%><br>
+    <%= f.text_field( :title,{:class => 'form-control'}) %>
+  </p>
+
+
+  <p>
+    <%= f.label :body %><br>
+    <%= f.text_area( :body,{:class => 'form-control'}) %>
+  </p>
+
+
+  <p>
+    <%= f.submit({:class => 'btn btn-primary'}) %>
+  </p>
+
+<%end%>

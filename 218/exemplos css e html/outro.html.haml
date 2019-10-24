@@ -1,0 +1,19 @@
+%html
+  %head
+    %link{rel: "stylesheet", type: "text/css", href: "separado.css"}
+
+  %body
+    .Geral
+      #box1
+      #box2
+      .frame
+        %h1 CSS = Styles and Colors
+        #largo Manipulate Text
+        #colorido
+          Colors, 
+          %span.caixa Boxes
+          %table.geral#colorido{border: "5px"}
+            - 10.times do |z|
+              = "<tr><td>Algo</td><td>##{z}</td></tr>"
+
+

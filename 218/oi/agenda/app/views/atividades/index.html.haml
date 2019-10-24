@@ -1,0 +1,35 @@
+%center
+    %ul
+        %li.home
+            %a{:href => "../"} Home
+        %li.home
+            %a.active{:href => "atividades"} Atividades
+        %li.home
+            %a{:href => "avisos"} Mural de avisos
+    %h2.subtitulo=t(:list)
+    %table{border: 2}
+        %tr
+            %th Nome
+            %th Horario de início
+            %th Horario de fim
+            %th Sala
+            %th Professor
+            %th
+            %th
+
+        - @atividades.each do |at|
+            %tr
+                %td= at.nome
+                %td= at.horario_inicio
+                %td= at.horario_fim
+                %td= at.sala
+                %td= at.professor
+                %td
+                    = link_to t(:edit), edit_atividade_path(at),
+                    class: "button buttonEdit"
+                    %span.glyphicon.glyphicon-pencil
+                %td
+                    = link_to t(:delete), atividade_path(at), method: :delete,
+                    data: {confirm: 'Deseja mesmo apagar essa atividade?'},
+                    class: "button buttonDelete"
+    = link_to 'Nova atividade', new_atividade_path, class: "button buttonNew"

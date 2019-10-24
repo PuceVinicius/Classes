@@ -1,0 +1,6 @@
+<h1><%= @title %></h1>
+<% @avisos.each do |aviso| %>
+  <h3><%= aviso.title %></h3>
+  <p><%= aviso.body %></p>
+  <%= link_to "Aviso completo", aviso_path(aviso), :class => 'btn btn-default'%>
+<% end %>

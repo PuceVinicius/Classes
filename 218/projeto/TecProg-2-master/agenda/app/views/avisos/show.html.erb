@@ -1,0 +1,7 @@
+<h2><%= @aviso.title %></h2>
+<p><%= @aviso.body %></p>
+<hr>
+<%= link_to "Editar", edit_aviso_path(@aviso), :class => 'btn btn-default'%>
+<%= link_to "Excluir", aviso_path(@aviso), method: :delete,
+                      data: {confirm: 'Tem certeza?'},
+                      :class => 'btn btn-default'%>

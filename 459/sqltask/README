@@ -1,0 +1,9 @@
+This text presents the files in the directory.
+
+dvd_rental.db: This is the whole database already populated.
+
+er_notation.png: This is a notation file to understand the next file
+
+dvd_rental_er.png: This is the Entity-Relationship map of the database.
+		   You have to read the map to understand how to do your
+		   queries.

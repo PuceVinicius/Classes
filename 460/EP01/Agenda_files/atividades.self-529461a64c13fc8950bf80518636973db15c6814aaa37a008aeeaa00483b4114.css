@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* código furtado de https://codepen.io/andornagy/pen/EVXpbR
+   obrigado aos envolvidos
+*/
+/* line 6, app/assets/stylesheets/atividades.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* line 14, app/assets/stylesheets/atividades.scss */
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+/* line 19, app/assets/stylesheets/atividades.scss */
+li:last-child {
+  border-right: none;
+}
+
+/* line 23, app/assets/stylesheets/atividades.scss */
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* line 31, app/assets/stylesheets/atividades.scss */
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/* line 35, app/assets/stylesheets/atividades.scss */
+.active {
+  background-color: #4CAF50;
+}
+
+/* line 39, app/assets/stylesheets/atividades.scss */
+.button {
+  background-color: #333;
+  border: none;
+  color: black;
+  padding: 7px 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.2s;
+  float: center;
+}
+
+/* line 54, app/assets/stylesheets/atividades.scss */
+.button:hover {
+  background-color: purple;
+  color: white;
+}
+
+/* line 59, app/assets/stylesheets/atividades.scss */
+.buttonNew {
+  background-color: pink;
+  /* rosa */
+  color: black;
+}
+
+/* line 63, app/assets/stylesheets/atividades.scss */
+.buttonEdit {
+  background-color: #008CBA;
+}
+
+/* line 64, app/assets/stylesheets/atividades.scss */
+.buttonDelete {
+  background-color: #F44336;
+}
+
+/* line 65, app/assets/stylesheets/atividades.scss */
+.buttonBack {
+  background-color: pink;
+}
+
+/* line 67, app/assets/stylesheets/atividades.scss */
+table {
+  width: 750px;
+  border-collapse: collapse;
+  margin: 50px auto;
+}
+
+/* Zebra striping */
+/* line 74, app/assets/stylesheets/atividades.scss */
+tr:nth-of-type(odd) {
+  background: #eee;
+}
+
+/* line 78, app/assets/stylesheets/atividades.scss */
+th {
+  background: #3498db;
+  color: cyan;
+  font-weight: bold;
+}
+
+/* line 84, app/assets/stylesheets/atividades.scss */
+td, th {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 18px;
+}
+
+/*
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 100, app/assets/stylesheets/atividades.scss */
+  table {
+    width: 100%;
+  }
+  /* Force table to not be like tables anymore */
+  /* line 105, app/assets/stylesheets/atividades.scss */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  /* Hide table headers (but not display: none;, for accessibility) */
+  /* line 110, app/assets/stylesheets/atividades.scss */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  /* line 116, app/assets/stylesheets/atividades.scss */
+  tr {
+    border: 1px solid #ccc;
+  }
+  /* line 118, app/assets/stylesheets/atividades.scss */
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+  }
+  /* line 126, app/assets/stylesheets/atividades.scss */
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    /* Label the data */
+    content: attr(data-column);
+    color: #000;
+    font-weight: bold;
+  }
+}

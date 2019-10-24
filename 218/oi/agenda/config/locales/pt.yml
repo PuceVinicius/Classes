@@ -1,0 +1,18 @@
+pt:
+    save: 'Salvar'
+    edit: 'Editar'
+    back: 'Voltar'
+    delete: 'Apagar'
+    new: 'Novo'
+    list: 'Atividades Cadastradas'
+    activerecord:
+        errors:
+            messages:
+                blank: "está em branco!"
+            models:
+                atividade:
+                    attributes:
+                        horario_inicio:
+                            blank: "precisa ser um horário!"
+                        horario_fim:
+                            blank: "precisa ser um horário!"

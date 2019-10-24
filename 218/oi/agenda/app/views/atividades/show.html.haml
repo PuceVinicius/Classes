@@ -1,0 +1,18 @@
+%center
+    %h1 Atividade inserida com sucesso!
+    %p
+        %i= @atividade.nome
+        começa às
+        %i= @atividade.horario_inicio
+        termina às
+        %i= @atividade.horario_fim
+    %p
+        será na sala
+        %i= @atividade.sala
+    %p
+        e será ministrada pelo professor
+        %i= @atividade.professor
+    %p
+        = link_to 'Editar', edit_atividade_path(@atividade), class: "button"
+        = link_to 'Novo',   new_atividade_path, class: "button"
+        = link_to 'Início',  atividades_path, class: "button"

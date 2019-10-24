@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="pt-br" xml:lang="pt-br">
+<head>
+    <title>MAC0323 Algoritmos e Estruturas de Dados II EP02 Editar</title>
+    <link rel="shortcut icon" href="https://paca.ime.usp.br/theme/image.php/boost/theme/1520260153/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, MAC0323 Algoritmos e Estruturas de Dados II EP02 Editar" />
+<link rel="stylesheet" type="text/css" href="https://paca.ime.usp.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://paca.ime.usp.br/theme/styles.php/boost/1520260153_1/all" />
+<link rel="stylesheet" type="text/css" href="https://paca.ime.usp.br/mod/vpl/editor/font-awesome/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="https://paca.ime.usp.br/mod/vpl/editor/jquery/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="https://paca.ime.usp.br/mod/vpl/editor/VPLIDE.css" />
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/paca.ime.usp.br","sesskey":"1Mo0W48IDR","themerev":"1520260153","slasharguments":1,"theme":"boost","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1520260153","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/S\u00e3o_Paulo","contextid":137974};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/paca.ime.usp.br\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/paca.ime.usp.br\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/paca.ime.usp.br\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/paca.ime.usp.br\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/paca.ime.usp.br\/theme\/yui_combo.php?m\/1520260153\/","combine":true,"comboBase":"https:\/\/paca.ime.usp.br\/theme\/yui_combo.php?","ext":false,"root":"m\/1520260153\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-randomquestion":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizquestionbank":{"requires":["base","event","node","io","io-form","yui-later","moodle-question-qbankmanager","moodle-core-notification-dialogue"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/paca.ime.usp.br\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/paca.ime.usp.br\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1520260153\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/paca.ime.usp.br\/lib\/javascript.php\/1520260153\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/paca.ime.usp.br\/lib\/javascript.php\/1520260153\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body  id="page-mod-vpl-forms-edit" class="format-topics  path-mod path-mod-vpl path-mod-vpl-forms safari dir-ltr lang-pt_br yui-skin-sam yui3-skin-sam paca-ime-usp-br pagelayout-incourse course-1241 context-137974 cmid-38682 category-55 drawer-open-left">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Ir para o conteúdo principal</a>
+</div><script type="text/javascript" src="https://paca.ime.usp.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script type="text/javascript" src="https://paca.ime.usp.br/lib/javascript.php/1520260153/lib/javascript-static.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/jquery/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/jquery/jquery-ui-1.10.4.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/VPL_jquery_no_conflict.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/noVNC/include/util.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    <header role="banner" class="pos-f-t navbar navbar-full navbar-light bg-faded navbar-static-top moodle-has-zindex">
+    
+        <div class="container-fluid navbar-nav">
+    
+            <div data-region="drawer-toggle">
+                <button aria-expanded="true" aria-controls="nav-drawer" type="button" class="btn pull-xs-left m-r-1 btn-secondary" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="icon fa fa-bars fa-fw " aria-hidden="true"  aria-label=""></i><span class="sr-only">Painel lateral</span></button>
+            </div>
+    
+            <a href="https://paca.ime.usp.br" class="navbar-brand 
+                    hidden-sm-down
+                    ">
+                <span class="site-name hidden-sm-down">Paca</span>
+            </a>
+    
+            <!-- user_menu -->
+            <div class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar" id="action-menu-1-menubar" role="menubar">
+
+            <div class="dropdown d-inline">
+    <a href="#" class="dropdown-toggle" id="dropdown-1" title="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="userbutton"><span class="usertext">Vinicius Moreno</span><span class="avatars"><span class="avatar current"><img src="https://paca.ime.usp.br/theme/image.php/boost/core/1520260153/u/f2" alt="Imagem de Vinicius Moreno" title="Imagem de Vinicius Moreno" class="userpicture defaultuserpic" width="35" height="35" role="presentation" /></span></span></span><b class="caret"></b></a>
+        <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+            <a href="https://paca.ime.usp.br/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-1"><i class="icon fa fa-tachometer fa-fw " aria-hidden="true" title="Painel" aria-label="Painel"></i><span class="menu-action-text" id="actionmenuaction-1">Painel</span></a><div class="dropdown-divider"></div><a href="https://paca.ime.usp.br/user/profile.php?id=35196" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-2"><i class="icon fa fa-user fa-fw " aria-hidden="true" title="Perfil" aria-label="Perfil"></i><span class="menu-action-text" id="actionmenuaction-2">Perfil</span></a><a href="https://paca.ime.usp.br/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-3"><i class="icon fa fa-table fa-fw " aria-hidden="true" title="Notas" aria-label="Notas"></i><span class="menu-action-text" id="actionmenuaction-3">Notas</span></a><a href="https://paca.ime.usp.br/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-4"><i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Mensagens" aria-label="Mensagens"></i><span class="menu-action-text" id="actionmenuaction-4">Mensagens</span></a><a href="https://paca.ime.usp.br/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-5"><i class="icon fa fa-wrench fa-fw " aria-hidden="true" title="Preferências" aria-label="Preferências"></i><span class="menu-action-text" id="actionmenuaction-5">Preferências</span></a><div class="dropdown-divider"></div><a href="https://paca.ime.usp.br/login/logout.php?sesskey=1Mo0W48IDR" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-6"><i class="icon fa fa-sign-out fa-fw " aria-hidden="true" title="Sair" aria-label="Sair"></i><span class="menu-action-text" id="actionmenuaction-6">Sair</span></a>
+        </div>
+</div>
+
+
+        </div>
+
+</div></div>
+    
+            <!-- navbar_plugin_output -->
+            <div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="35196"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        aria-role="button"
+        aria-controls="popover-region-container-5abc1084824325abc10848039710"
+        aria-haspopup="true"
+        aria-label="Mostrar janela de notificações sem as novas notificações"
+        tabindex="0">
+                <i class="icon fa fa-bell fa-fw " aria-hidden="true" title="Alternar menu de notificações" aria-label="Alternar menu de notificações"></i>
+        <div class="count-container hidden" data-region="count-container"></div>
+
+    </div>
+    <div 
+        id="popover-region-container-5abc1084824325abc10848039710"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Janela de notificação"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notificações</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <a class="mark-all-read-button"
+           href="#"
+           title="Marcar tudo como lido"
+           data-action="mark-all-read"
+           role="button">
+            <span class="normal-icon"><i class="icon fa fa-check fa-fw " aria-hidden="true" title="Marcar tudo como lido" aria-label="Marcar tudo como lido"></i></span>
+            <span class="loading-icon"><img class="icon " alt="Carregando" title="Carregando" src="https://paca.ime.usp.br/theme/image.php/boost/core/1520260153/y/loading" /></span>
+        </a>
+        <a href="https://paca.ime.usp.br/message/notificationpreferences.php?userid=35196"
+           title="Preferências de notificação">
+            <i class="icon fa fa-cog fa-fw " aria-hidden="true" title="Preferências de notificação" aria-label="Preferências de notificação"></i>
+        </a>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Você não tem nenhuma notificação</div>
+
+            </div>
+            <span class="loading-icon"><img class="icon " alt="Carregando" title="Carregando" src="https://paca.ime.usp.br/theme/image.php/boost/core/1520260153/y/loading" /></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://paca.ime.usp.br/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Mostrar todos</div>
+                    </div>
+                </a>
+    </div>
+</div>
+    
+            <!-- search_box -->
+            <span class="hidden-md-down">
+            
+            </span>
+    
+            <nav class="nav navbar-nav hidden-md-down">
+                <!-- custom_menu -->
+                
+                <!-- page_heading_menu -->
+                
+            </nav>
+        </div>
+    </header>
+    
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row"><div class="col-xs-12 p-a-1"><div class="card"><div class="card-block"><div class="pull-xs-right context-header-settings-menu"></div><div class="pull-xs-left"><div class="page-context-header"><div class="page-header-headings"><h1>MAC0323 Algoritmos e Estruturas de Dados II</h1></div></div></div><div class="clearfix w-100 pull-xs-left" id="page-navbar"><div class="breadcrumb-nav"><nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://paca.ime.usp.br/my/" >Painel</a></li>
+                <li class="breadcrumb-item">Meus cursos</li>
+                <li class="breadcrumb-item"><a href="https://paca.ime.usp.br/course/index.php?categoryid=55" >1º Semestre 2018</a></li>
+                <li class="breadcrumb-item"><a href="https://paca.ime.usp.br/course/view.php?id=1241" title="MAC0323 Algoritmos e Estruturas de Dados II">MAC0323 2018</a></li>
+                <li class="breadcrumb-item"><a href="https://paca.ime.usp.br/course/view.php?id=1241#section-4" >Exercícios-programa</a></li>
+                <li class="breadcrumb-item"><a href="https://paca.ime.usp.br/mod/vpl/view.php?id=38682" title="Laboratório Virtual de Programação">EP02</a></li>
+    </ol>
+</nav></div><div class="breadcrumb-button pull-xs-right"></div></div><div id="course-header"></div></div></div></div></header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-xs-12">
+                <section id="region-main" >
+                    <div class="card card-block">
+                    <span class="notifications" id="user-notifications"></span>
+                    <div role="main"><span id="maincontent"></span><ul class="nav nav-tabs m-b-1">
+    <li class="nav-item">
+      <a class="nav-link" href="https://paca.ime.usp.br/mod/vpl/view.php?id=38682&amp;userid=35196" title="Descrição">Descrição</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://paca.ime.usp.br/mod/vpl/forms/submission.php?id=38682&amp;userid=35196" title="Enviar">Enviar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active"  title="Editar">Editar</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://paca.ime.usp.br/mod/vpl/forms/submissionview.php?id=38682&amp;userid=35196" title="Visualizar envios">Visualizar envios</a>
+    </li>
+</ul><div class="box generalbox p-y-1"><div id="vplide" class="vpl_ide vpl_ide_root ui-widget">
+    <div id="vpl_menu" class="vpl_ide_menu"></div>
+    <div id="vpl_tr" class="vpl_ide_tr">
+        <div id="vpl_filelist" style="display: none;">
+            <div id="vpl_filelist_header">File list</div>
+            <div id="vpl_filelist_content"></div>
+        </div>
+        <div id="vpl_tabs" class="vpl_ide_tabs">
+            <div id="vpl_tabs_scroll">
+                <ul id="vpl_tabs_ul"></ul>
+            </div>
+        </div>
+        <div id="vpl_results" class="vpl_ide_results">
+            <div id="vpl_results_accordion"></div>
+        </div>
+    </div>
+    <div id="vpl_ide_dialog_new" class="vpl_ide_dialog"
+        style="display: none;">
+        <fieldset>
+            <label for="vpl_ide_input_newfilename">
+                Nome do novo arquivo</label> <input
+                type="text" id="vpl_ide_input_newfilename"
+                name="vpl_ide_input_newfilename" value=""
+                class="ui-widget-content ui-corner-all" autofocus /><br />
+        </fieldset>
+    </div>
+    <div id="vpl_ide_dialog_rename" class="vpl_ide_dialog"
+        style="display: none;">
+        <fieldset>
+            <label for="vpl_ide_input_renamefilename">
+                Renomear</label> <input
+                type="text" id="vpl_ide_input_renamefilename"
+                name="vpl_ide_input_renamefilename" value=""
+                class="ui-widget-content ui-corner-all" autofocus /><br />
+        </fieldset>
+    </div>
+    <div id="vpl_ide_dialog_delete" class="vpl_ide_dialog"
+        style="display: none;">
+        <fieldset>
+            <label for="vpl_ide_input_deletefilename">
+                Excluir</label> <input
+                type="text" id="vpl_ide_input_deletefilename"
+                name="vpl_ide_input_deletefilename" value=""
+                class="ui-widget-content ui-corner-all" autofocus /><br />
+        </fieldset>
+    </div>
+    <div id="vpl_ide_dialog_sort" class="vpl_ide_dialog"
+        style="display: none;">
+        <ol id="vpl_sort_list"></ol>
+    </div>
+    <div id="vpl_ide_dialog_multidelete" class="vpl_ide_dialog"
+        style="display: none;">
+        <fieldset id="vpl_multidelete_list"></fieldset>
+    </div>
+    <div id="vpl_ide_dialog_fontsize" class="vpl_ide_dialog"
+        style="display: none;">
+        <div class="vpl_fontsize_slider_value"></div>
+        <div class="vpl_fontsize_slider"></div>
+    </div>
+    <div id="vpl_ide_dialog_comments" class="vpl_ide_dialog"
+        style="display: none;">
+        <fieldset>
+            <label for="vpl_ide_input_comments">
+                Comentários</label> <textarea
+                id="vpl_ide_input_comments" name="vpl_ide_input_comments"
+                class="ui-widget-content ui-corner-all" autofocus ></textarea>
+        </fieldset>
+    </div>
+    <div id="vpl_ide_dialog_about" class="vpl_ide_dialog"
+        style="display: none;">
+        <div class="vpl_ide_dialog_content">
+        <h3>IDE for VPL</h3>
+        This IDE is part of VPL <a href="http://vpl.dis.ulpgc.es"
+            target="_blank">Virtual Programming Lab for Moodle</a><br /> Author:
+        Juan Carlos Rodríguez del Pino &lt;jcrodriguez@dis.ulpgc.es&gt;<br />
+        Licence: <a href="http://www.gnu.org/copyleft/gpl.html"
+            target="_blank">GNU GPL v3</a><br /> This software uses/includes the
+        following software under the corresponding licence:
+        <ul>
+            <li><a href="http://ace.c9.io" target="_blank">ACE</a>: an embeddable
+                code editor written in JavaScript. Copyright (c) 2010, Ajax.org B.V.
+                (<a href="../editor/ace9/LICENSE" target="_blank">licence</a>)</li>
+            <li><a href="https://github.com/chjj/term.js/" target="_blank">term.js</a>:
+                A full xterm clone written in javascript. Copyright (c) 2012-2013,
+                Christopher Jeffrey (MIT License)</li>
+            <li><a href="http://kanaka.github.io/noVNC/" target="_blank">noVNC</a>:
+                VNC client using HTML5 (WebSockets, Canvas). noVNC is Copyright (C)
+                2011 Joel Martin &lt;github@martintribe.org&gt; (<a
+                href="../editor/noVNC/LICENSE.txt" target="_blank">licence</a>)</li>
+            <li><a href="http://jquery.com/" target="_blank">jQuery and JQuery-ui</a>:
+                jQuery is a fast, small, and feature-rich JavaScript library.
+                Copyright The jQuery Foundation. (<a
+                href="../editor/jquery/MIT-LICENSE.txt">licence</a>)</li>
+            <li><a href="http://fontawesome.io">Font Awesome</a> by Dave Gandy</li>
+            <li>unzip.js August Lilleaas</li>
+            <li>inflate.js August Lilleaas and Masanao Izumo &lt;iz@onicos.co.jp&gt;</li>
+        </ul>
+        </div>
+    </div>
+    <form style="display: none;">
+        <input type="file" multiple="multiple" id="vpl_ide_input_file" />
+    </form>
+    <div id="vpl_ide_dialog_shortcuts" class="vpl_ide_dialog" style="display: none;" >
+        <div class="vpl_ide_dialog_content"></div>
+    </div>
+    <div id="vpl_dialog_terminal" style="display: none;">
+        <pre id="vpl_terminal" class="vpl_terminal"></pre>
+    </div>
+    <div id="vpl_dialog_terminal_clipboard" class="vpl_ide_dialog vpl_clipboard" style="display: none;">
+        <div class="vpl_clipboard_label1"></div><br />
+        <textarea readonly="readonly" class="vpl_clipboard_entry1"></textarea><br />
+        <div class="vpl_clipboard_label2"></div><br />
+        <textarea class="vpl_clipboard_entry2"></textarea>
+    </div>
+    <div id="vpl_dialog_vnc_clipboard" class="vpl_ide_dialog vpl_clipboard" style="display: none;">
+        <div class="vpl_clipboard_label1"></div><br />
+        <textarea readonly="readonly" class="vpl_clipboard_entry1"></textarea><br />
+        <div class="vpl_clipboard_label2"></div><br />
+        <textarea class="vpl_clipboard_entry2"></textarea>
+    </div>
+    <div id="vpl_dialog_vnc" style="display: none;">
+        <canvas class="vpl_noVNC_canvas">
+                Canvas not supported.
+         </canvas>
+    </div>
+</div>
+<script>
+    INCLUDE_URI="../editor/noVNC/include/";
+    Util.load_scripts(["webutil.js", "base64.js", "websock.js", "des.js",
+                       "keysymdef.js", "keyboard.js", "input.js", "display.js",
+                       "jsunzip.js", "rfb.js", "keysym.js"]);
+    $JQVPL(document).ready(function(){
+        $JQVPL("#page-footer").hide();
+        vpl_ide = new VPL_IDE('vplide',{"id":38682,"restrictededitor":false,"save":true,"run":false,"debug":false,"evaluate":true,"example":false,"comments":true,"description":"<div class=\"no-overflow\"><h1 style=\"color: red;\" id=\"ep02---percolation\">EP02 - Percolation<\/h1>\r\n<h2 style=\"color: blue;\" id=\"objetivos\">Objetivos<\/h2>\r\n<p>Estimar um limiar de percola\u00e7\u00e3o (= <a href=\"https:\/\/en.wikipedia.org\/wiki\/Percolation_threshold\">Percolation threshold<\/a>) atrav\u00e9s do m\u00e9todo de Monte Carlo (= <a href=\"https:\/\/en.wikipedia.org\/wiki\/Monte_Carlo_method\">Monte Carlo method<\/a>). Os experimentos computacionais utilizar\u00e3o a estrutura <a href=\"https:\/\/en.wikipedia.org\/wiki\/Disjoint-set_data_structure\">Union-find<\/a>.<\/p>\r\n<h2 style=\"color: blue;\" id=\"tarefa\">Tarefa<\/h2>\r\n<p>Aquelas e aqueles que tiverem dificuldade com a compreens\u00e3o de algo podem procurar o Coelho, Lana, Victor ou perguntar a algum colega. Melhor ainda, se voc\u00ea desejar fazer alguma cr\u00edtica, coment\u00e1rio, sugest\u00e3o ou tiver alguma d\u00favida, voc\u00ea pode ter uma atitude voltada para o bem estar coletivo <img class=\"icon emoticon\" alt=\"sorriso\" title=\"sorriso\" src=\"https:\/\/paca.ime.usp.br\/theme\/image.php\/boost\/core\/1520260153\/s\/smiley\" \/> e registrar sua cr\u00edtica\/coment\u00e1rio\/sugest\u00e3o\/d\u00favida no <a class=\"autolink\" title=\"F\u00f3rum de discuss\u00e3o\" href=\"https:\/\/paca.ime.usp.br\/mod\/forum\/view.php?id=39351\">f\u00f3rum de discuss\u00e3o<\/a> de MAC0323.<\/p>\r\n<p>Todos est\u00e3o dispostos a colaborar. Entretanto, aten\u00e7\u00e3o para a <a href=\"http:\/\/www.cs.princeton.edu\/courses\/archive\/spring18\/cos226\/assignments.php#collaboration-policy\"><em>Collaboration policy<\/em><\/a> descrita na p\u00e1gina dos <a href=\"http:\/\/www.cs.princeton.edu\/courses\/archive\/spring18\/cos226\/assignments.php\"><em>Assignments<\/em><\/a> de <a href=\"http:\/\/www.cs.princeton.edu\/courses\/archive\/spring18\/cos226\/syllabus.php\">COS 226<\/a> que tamb\u00e9m valem para MAC0323.<\/p>\r\n<p>Este EP \u00e9 mais um pl\u00e1gio de um assignment muit\u00edssimo legal da disciplina <a href=\"http:\/\/www.cs.princeton.edu\/courses\/archive\/spring18\/cos226\/syllabus.php\">COS 226<\/a>. Todos n\u00f3s aprenderemos muito com esse EP. O enunciado do EP \u00e9 <a href=\"http:\/\/www.cs.princeton.edu\/courses\/archive\/spring18\/cos226\/assignments\/percolation\/index.html\">Programming Assignment 1: Percolation<\/a>. A p\u00e1gina <a href=\"http:\/\/www.cs.princeton.edu\/courses\/archive\/spring18\/cos226\/assignments\/percolation\/checklist.html\">Programming Assignment 1 Checklist: Percolation<\/a> cont\u00e9m dicas e esclarecimentos \u00fateis.<\/p>\r\n<p>A leitura da p\u00e1gina <a href=\"http:\/\/introcs.cs.princeton.edu\/java\/24percolation\/\">Case Study: Percolation<\/a> do livro <a href=\"http:\/\/introcs.cs.princeton.edu\/java\/home\/\">Introduction to Programming in Java<\/a> de S&amp;W tamb\u00e9m pode ajudar a entender o problema. J\u00e1, a estrutura <em>Union-find<\/em> esta descrita na p\u00e1gina <a href=\"http:\/\/algs4.cs.princeton.edu\/15uf\/\">Case Study: Union-Find<\/a> do <a href=\"http:\/\/algs4.cs.princeton.edu\/home\/\">Algorithms<\/a> de S&amp;W e nas nossas notas de aula. Sobre <em>Union-find<\/em> h\u00e1 ainda os v\u00eddeos do Gabriel Russo no <a href=\"https:\/\/www.youtube.com\/user\/BCCIMEUSP\">canal do BCC no YouTube<\/a> e de S&amp;W na p\u00e1gina <a href=\"http:\/\/www.cs.princeton.edu\/courses\/archive\/spring18\/cos226\/lectures.php\">Lectures, COS 226<\/a>: <div class=\"mediaplugin mediaplugin_videojs\"><div style=\"max-width:400px;\"><video data-setup-lazy=\"{&quot;techOrder&quot;: [&quot;youtube&quot;], &quot;sources&quot;: [{&quot;type&quot;: &quot;video\/youtube&quot;, &quot;src&quot;:&quot;https:\/\/www.youtube.com\/watch?v=6aeu01RtKTU&amp;amp;t=2450s&quot;}], &quot;language&quot;: &quot;pt-BR&quot;, &quot;fluid&quot;: true}\" id=\"id_videojs_5abc10847194a\" class=\"video-js\" preload=\"auto\" controls=\"true\" title=\"Union-find e Kruskal, Gabriel Russo, p\u00e1gina do BCC\"><a class=\"mediafallbacklink\" href=\"https:\/\/www.youtube.com\/watch?v=6aeu01RtKTU&amp;t=2450s\">Union-find e Kruskal, Gabriel Russo, p\u00e1gina do BCC<\/a><\/video><\/div><\/div> e <div class=\"mediaplugin mediaplugin_videojs\"><div style=\"max-width:400px;\"><video data-setup-lazy=\"{&quot;techOrder&quot;: [&quot;youtube&quot;], &quot;sources&quot;: [{&quot;type&quot;: &quot;video\/youtube&quot;, &quot;src&quot;:&quot;https:\/\/www.youtube.com\/watch?v=gfSpPbJWzVs&amp;amp;feature=youtu.be&quot;}], &quot;language&quot;: &quot;pt-BR&quot;, &quot;fluid&quot;: true}\" id=\"id_videojs_5abc108471a78\" class=\"video-js\" preload=\"auto\" controls=\"true\" title=\"Union Find, S&amp;W, COS 226\"><a class=\"mediafallbacklink\" href=\"https:\/\/www.youtube.com\/watch?v=gfSpPbJWzVs&amp;feature=youtu.be\">Union Find, S&amp;W, COS 226<\/a><\/video><\/div><\/div>.<\/p>\r\n<h2 style=\"color: blue;\" id=\"arquivos\">Arquivos<\/h2>\r\n<p>Testes: <a href=\"http:\/\/www.cs.princeton.edu\/courses\/archive\/spring18\/cos226\/assignments\/percolation\/percolation.zip\">percolation.zip<\/a><\/p>\r\n<p>Ao ser descompactado o arquivo `<code>percolation_tests.zip<\/code> criar\u00e1 os seguintes diret\u00f3rios e arquivos:<\/p>\r\n<pre><code>    meu_prompt&gt; unzip -l percolation.zip \r\n    Archive:  percolation.zip\r\n      Length      Date    Time    Name\r\n    ---------  ---------- -----   ----\r\n            0  2017-09-06 15:24   percolation\/\r\n        32400  2015-02-05 08:26   percolation\/sedgewick60.png\r\n        30711  2017-08-14 07:50   percolation\/snake101.txt\r\n         3136  2017-07-07 11:58   percolation\/PercolationVisualizer.java\r\n         4866  2012-09-10 09:19   percolation\/input2-no.png\r\n            6  2012-09-04 14:08   percolation\/input1.txt\r\n         5314  2012-08-29 13:08   percolation\/input3.png\r\n          106  2015-01-21 09:37   percolation\/input5.txt\r\n          138  2015-01-21 09:36   percolation\/input8.txt\r\n        12930  2012-08-29 13:08   percolation\/heart25.png\r\n        26513  2015-02-05 08:26   percolation\/jerry47.png\r\n        11811  2014-08-06 07:08   percolation\/jerry47.txt\r\n        15135  2012-09-11 20:02   percolation\/greeting57.txt\r\n        35712  2015-02-05 08:21   percolation\/greeting57.png\r\n           34  2012-09-04 14:09   percolation\/input4.txt\r\n         2115  2012-09-11 20:02   percolation\/heart25.txt\r\n         4559  2018-02-05 11:27   percolation\/readme.txt\r\n           74  2012-09-04 14:09   percolation\/input6.txt\r\n         6082  2012-08-29 13:08   percolation\/input7.png\r\n         1503  2012-09-11 20:02   percolation\/input20.txt\r\n         8209  2012-08-29 13:08   percolation\/input10.png\r\n         8258  2012-08-29 13:08   percolation\/input10-no.png\r\n         7306  2012-08-29 13:08   percolation\/input8.png\r\n         8475  2015-01-21 09:35   percolation\/input50.txt\r\n         4110  2012-08-29 13:08   percolation\/input1.png\r\n         6420  2012-08-29 13:08   percolation\/input6.png\r\n          227  2012-09-04 14:08   percolation\/input10.txt\r\n        62891  2012-09-12 11:14   percolation\/snake101.png\r\n            2  2012-09-04 14:08   percolation\/input1-no.txt\r\n        30477  2015-01-24 10:24   percolation\/wayne98.txt\r\n         8673  2012-09-12 11:14   percolation\/snake13.png\r\n          223  2012-09-04 14:08   percolation\/input10-no.txt\r\n           10  2012-09-04 14:08   percolation\/input2-no.txt\r\n         6989  2012-08-29 13:08   percolation\/input5.png\r\n         7552  2012-08-29 13:08   percolation\/input8-no.png\r\n         4042  2012-08-29 13:08   percolation\/input1-no.png\r\n        44612  2015-02-05 08:26   percolation\/wayne98.png\r\n          513  2017-08-14 07:50   percolation\/snake13.txt\r\n        19267  2014-08-06 07:06   percolation\/sedgewick60.txt\r\n           26  2012-09-04 14:08   percolation\/input3.txt\r\n        35599  2012-08-29 13:08   percolation\/input50.png\r\n         2239  2017-08-28 05:57   percolation\/InteractivePercolationVisualizer.java\r\n           66  2012-09-04 14:09   percolation\/input7.txt\r\n         4667  2012-08-29 13:08   percolation\/input2.png\r\n           14  2012-09-04 14:08   percolation\/input2.txt\r\n         7306  2015-02-05 08:27   percolation\/input8-dups.png\r\n          321  2017-09-14 06:15   percolation\/CREDITS\r\n          146  2015-01-21 09:42   percolation\/input8-dups.txt\r\n        12452  2012-08-29 13:08   percolation\/input20.png\r\n          134  2012-09-04 14:09   percolation\/input8-no.txt\r\n         5311  2012-08-29 13:08   percolation\/input4.png\r\n    ---------                     -------\r\n       489682                     51 files<\/code><\/pre>\r\n<p><code>InteractivePercolationVisualizer.java<\/code> \u00e9 um programa interativo que utiliza a sua classe <code>Percolation<\/code> e auxilia na verifica\u00e7\u00e3o da sua corre\u00e7\u00e3o de uma maneira gr\u00e1fica.<\/p>\r\n<p><code>PercolationVisualizer.java<\/code> \u00e9 um programa que utiliza a sua classe <code>Percolation<\/code>, tem como entrada algum arquivo <code>percolation\/bl\u00e1-bl\u00e1-bl\u00e1.txt<\/code> e produz a respectiva imagem 'percolation\/bl\u00e1-bl\u00e1-bl\u00e1.png'. Esse programa tamb\u00e9m ser\u00e1 \u00fatil para voc\u00ea verificar a corre\u00e7\u00e3o da sua classe <code>Percolation<\/code>. Por exemplo:<\/p>\r\n<div class=\"sourceCode\">\r\n<pre class=\"sourceCode java\"><code class=\"sourceCode java\">    meu_prompt&gt; java PercolationVisualizer percolation\/wayne98.<span class=\"fu\">txt<\/span><\/code><\/pre>\r\n<\/div>\r\n<p>deve produzir a imagem<\/p>\r\n<div class=\"figure\"><img src=\"http:\/\/www.ime.usp.br\/~coelho\/mac0323-2018\/eps\/ep02\/wayne98.png\" title=\"Kevin Wayne\" alt=\"Kevin Wayne\" \/>\r\n<p class=\"caption\">Kevin Wayne<\/p>\r\n<\/div>\r\n<h2 style=\"color: blue;\" id=\"utilit\u00e1rio-para-desenhar\">Utilit\u00e1rio para desenhar<\/h2>\r\n<p>Em 2017, o Juliano Garcia de Oliveira, fez um script em Python pra gerar arquivos de texto que representam imagens que a pessoa escolhe para depois ser lido pelo <code>PercolationVisualizer<\/code>.<\/p>\r\n<p>O script est\u00e1 <a href=\"https:\/\/github.com\/robotenique\/pythonDev\/blob\/master\/multimedia\/genTxt.py\">aqui<\/a>, usa <a href=\"https:\/\/www.python.org\/download\/releases\/3.0\/\">Python 3.6<\/a>, <a href=\"http:\/\/www.numpy.org\/\">NumPy<\/a> e a biblioteca <a href=\"http:\/\/www.pythonware.com\/products\/pil\/\">PIL<\/a> para a manipula\u00e7\u00e3o de imagens. Talvez valha a pena instalar <a href=\"https:\/\/www.anaconda.com\/\">Anaconda<\/a> que tem tudo isso e muito mais.<\/p>\r\n<p>Para usar o script fa\u00e7a<\/p>\r\n<div class=\"sourceCode\">\r\n<pre class=\"sourceCode java\"><code class=\"sourceCode java\">    meu_prompt&gt; .\/genTxt.<span class=\"fu\">py<\/span> &lt;img&gt; &lt;contrast&gt; &gt; draw.<span class=\"fu\">txt<\/span> <\/code><\/pre>\r\n<\/div>\r\n<p>e depois<\/p>\r\n<div class=\"sourceCode\">\r\n<pre class=\"sourceCode java\"><code class=\"sourceCode java\">     meu_prompt&gt; java PercolationVisualizer draw.<span class=\"fu\">txt<\/span><\/code><\/pre>\r\n<\/div>\r\n<p>Vejam alguma imagens geradas pelo Juliano.<\/p>\r\n<p><img src=\"http:\/\/www.ime.usp.br\/~coelho\/mac0323-2018\/eps\/ep02\/demo1.png\" title=\"demo1\" alt=\"demo1\" \/> <img src=\"http:\/\/www.ime.usp.br\/~coelho\/mac0323-2018\/eps\/ep02\/demo2.png\" title=\"demo2\" alt=\"demo2\" \/> <img src=\"http:\/\/www.ime.usp.br\/~coelho\/mac0323-2018\/eps\/ep02\/demo3.png\" title=\"demo3\" alt=\"demo3\" \/> <img src=\"http:\/\/www.ime.usp.br\/~coelho\/mac0323-2018\/eps\/ep02\/genTxt.png\" title=\"genTxt\" alt=\"genTxt\" \/><\/p>\r\n<h2 style=\"color: blue;\" id=\"entrega\">Entrega<\/h2>\r\n<p>Deposite na p\u00e1gina de MAC0323 os arquivos <code>Percolation.java<\/code>, <code>PercolationStats.java<\/code> e <code>readme.txt<\/code>.<\/p>\r\n<p>O arquivo <a href=\"http:\/\/www.cs.princeton.edu\/courses\/archive\/spring18\/cos226\/assignments\/percolation\/testing\/readme.txt\">readme.txt<\/a> consiste em um question\u00e1rio.<\/p>\r\n<p>O prazo de entrega est\u00e1 no in\u00edcio desta p\u00e1gina.<\/p><\/div>","username":"Vinicius Moreno","ajaxurl":"edit.json.php?id=38682&userid=35196&action=","download":"..\/views\/downloadsubmission.php?id=38682&userid=35196","timeLeft":17664,"resetfiles":false,"maxfiles":3,"minfiles":3,"saved":true,"i18n":{"about":"Sobre","acceptcertificates":"Aceitar certificados auto-assinados","acceptcertificatesnote":"<p>You are using an encrypted connection.<p\/>\n<p>To use an encrypted connection with the execution servers it is required you accept its certificates.<\/p>\n<p>If you have problems with this process, you can try to use a http (unencrypted) connection or other browser.<\/p>\n<p>Please, click on the following links (server #) and accept the offered certificate.<\/p>","binaryfile":"Binary File","browserupdate":"Por favor, atualize seu navegador para a \u00faltima vers\u00e3o<br \/>ou utilize outro que suporte Websocket.","changesNotSaved":"Altera\u00e7\u00f5es n\u00e3o foram salvas","clipboard":"Clipboard","comments":"Coment\u00e1rios","compilation":"Compila\u00e7\u00e3o","connected":"conectado","connecting":"conectando","connection_closed":"conex\u00e3o fechada","connection_fail":"falha de conex\u00e3o","console":"Console","copy":"Copiar","create_new_file":"Criar um novo arquivo","cut":"Cortar","description":"Descri\u00e7\u00e3o","debug":"Depurar","debugging":"Depurando","delete":"Exlcuir","delete_file_fq":"exlcuir arquivo '{$a}'?","delete_file_q":"Exlcuir arquivo?","download":"Baixar","edit":"Editar","evaluate":"Avaliar","evaluating":"Avaliando","execution":"Execu\u00e7\u00e3o","getjails":"Obter servidores de execu\u00e7\u00e3o","file":"Arquivo","filelist":"File list","filenotadded":"Arquivo n\u00e3o foi adicionado","filenotdeleted":"O arquivo '{$a}' N\u00c3O foi exclu\u00eddo","filenotrenamed":"O arquivo '{$a}' N\u00c3O foi renomeado","find":"Buscar","find_replace":"Buscar\/Substituir","fullscreen":"Tela cheia","incorrect_file_name":"Nome incorreto de arquivo","keyboard":"Keyboard","maxfilesexceeded":"Excedido o n\u00famero m\u00e1ximo de arquivos","new":"Novo","next":"Pr\u00f3ximo","load":"Load","loading":"Loading","options":"Op\u00e7\u00f5es","outofmemory":"Falta de mem\u00f3ria","paste":"Colar","print":"Print","redo":"Refazer","regularscreen":"Tela normal","rename":"Renomear","rename_file":"Renomear arquivo","resetfiles":"Reset files","retrieve":"Recuperar resultados","run":"Executar","running":"Executando","save":"Salvar","saving":"Salvando","select_all":"Selecionar tudo","shortcuts":"Keyboard shortcuts","sureresetfiles":"Todo o seu trabalho ser\u00e1 descartado e os arquivos retornar\u00e3o ao seu estado original. \u00c9 isso mesmo que desejas?","timeleft":"Time left","timeout":"Limite de tempo excedido","undo":"Desfazer","multidelete":"Multiple delete","cancel":"Cancelar","closebuttontitle":"Fechar","error":"Erro","import":"Importar","modified":"Modificado","notice":"Notar","ok":"OK","required":"Necess\u00e1rios","sort":"Ordenar","warning":"Aviso","deleteselected":"Excluir selecionados","selectall":"Selecionar tudo","deselectall":"Desmarcar todas as sele\u00e7\u00f5es","reset":"Reconfigurar","close":"Fechar","more":"Mostrar mais ...","less":"Mostrar menos ...","fontsize":"Tamanho da fonte"},"theme":"chrome","fontSize":12});
+        $JQVPL("head").append('<meta name="viewport" content="initial-scale=1">');
+        $JQVPL("head").append('<meta name="viewport" width="device-width">');
+    });
+    </script>
+</div><div style="float:right; right:10px; padding:8px; background-color: white;text-align:center;"><a href="http://vpl.dis.ulpgc.es/">VPL </a></div></div>
+                    <div class="m-t-2 m-b-1">
+<div class="row">
+    <div class="col-md-4">        <div class="pull-left">
+                <a href="https://paca.ime.usp.br/mod/vpl/view.php?id=38681&forceview=1" id="prev-activity-link" class=""  classes="btn btn-link"  title="EP01" >&#x25C0;&#xFE0E; EP01</a>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="mdl-align">
+            <div class="urlselect">
+    <form method="post" action="https://paca.ime.usp.br/course/jumpto.php" class="form-inline" id="url_select_f5abc10848039711">
+        <input type="hidden" name="sesskey" value="1Mo0W48IDR">
+            <label for="jump-to-activity" class="sr-only">
+                Seguir para...
+            </label>
+        <select id="jump-to-activity"  id="jump-to-activity" class="custom-select urlselect" name="jump">
+                    <option value="" selected>Seguir para...</option>
+                    <option value="/mod/forum/view.php?id=38668&amp;forceview=1" >Quadro de notícias</option>
+                    <option value="/mod/forum/view.php?id=39351&amp;forceview=1" >Fórum de discussão</option>
+                    <option value="/mod/page/view.php?id=39453&amp;forceview=1" >Sobre MAC0323: objetivos, médias, ...</option>
+                    <option value="/mod/page/view.php?id=39352&amp;forceview=1" >Horários dos plantões de dúvidas</option>
+                    <option value="/mod/url/view.php?id=38702&amp;forceview=1" >&quot;Estruturas de dados&quot; por Paulo Feofiloff</option>
+                    <option value="/mod/url/view.php?id=38679&amp;forceview=1" >&quot;Introduction to Programming in Java&quot; por Sedgewick &amp;amp; Wayne</option>
+                    <option value="/mod/url/view.php?id=38703&amp;forceview=1" >&quot;Algorithms&quot; por Sedgewick &amp;amp; Wayne</option>
+                    <option value="/mod/url/view.php?id=39448&amp;forceview=1" >&quot;Projeto de Algoritmos (em C)&quot; por Paulo Feofiloff</option>
+                    <option value="/mod/url/view.php?id=39455&amp;forceview=1" >&quot;MAC0xxx - Dicas&quot; por Gabriel Capella</option>
+                    <option value="/mod/url/view.php?id=39450&amp;forceview=1" >IDE? Veja &quot;Editor war&quot;</option>
+                    <option value="/mod/url/view.php?id=38677&amp;forceview=1" >&quot;Biblioteca de programas&quot; por Paulo Feofiloff</option>
+                    <option value="/mod/url/view.php?id=38678&amp;forceview=1" >&quot;Classes Java de Sedgewick &amp;amp; Wayne&quot; por Paulo Feofiloff</option>
+                    <option value="/mod/url/view.php?id=39447&amp;forceview=1" >Códigos e APIs do algs4</option>
+                    <option value="/mod/url/view.php?id=39451&amp;forceview=1" >The C Book</option>
+                    <option value="/mod/url/view.php?id=39452&amp;forceview=1" >The C Programming Language (a bíblia)</option>
+                    <option value="/mod/resource/view.php?id=39608&amp;forceview=1" >&quot;Apostila de MACAL&quot; por Fernando Mario de Oliveira</option>
+                    <option value="/mod/resource/view.php?id=39609&amp;forceview=1" >&quot;Executável de MACAL - Mac&quot; por Fernando Mario de Oliveira</option>
+                    <option value="/mod/resource/view.php?id=39610&amp;forceview=1" >&quot;Executável de MACAL - Linux&quot; por Fernando Mario de Oliveira</option>
+                    <option value="/mod/assign/view.php?id=39517&amp;forceview=1" >PR01</option>
+                    <option value="/mod/url/view.php?id=38680&amp;forceview=1" >&quot;Plágio em disciplinas de Computação&quot; por Arnaldo Mandel</option>
+                    <option value="/mod/vpl/view.php?id=38681&amp;forceview=1" >EP01</option>
+                    <option value="/mod/url/view.php?id=38699&amp;forceview=1" >Syllabus</option>
+                    <option value="/mod/url/view.php?id=38700&amp;forceview=1" >Lectures: videos, slides, study guide</option>
+                    <option value="/mod/url/view.php?id=38701&amp;forceview=1" >Booksite &quot;Algorithms&quot;</option>
+                    <option value="/mod/assign/view.php?id=39419&amp;forceview=1" >P1</option>
+                    <option value="/mod/assign/view.php?id=39420&amp;forceview=1" >P2</option>
+                    <option value="/mod/assign/view.php?id=39421&amp;forceview=1" >P3</option>
+                    <option value="/mod/assign/view.php?id=39797&amp;forceview=1" >p01</option>
+                    <option value="/mod/assign/view.php?id=39798&amp;forceview=1" >p02</option>
+                    <option value="/mod/assign/view.php?id=39799&amp;forceview=1" >p03</option>
+                    <option value="/mod/url/view.php?id=39382&amp;forceview=1" >06/MAR: apresentação, listas ligadas, classes genéricas e iteráveis</option>
+                    <option value="/mod/url/view.php?id=39383&amp;forceview=1" >08/MAR:  análise amortizada e redimensionamento</option>
+                    <option value="/mod/url/view.php?id=39384&amp;forceview=1" >13/MAR: Coleção disjunta dinâmica (union-find)</option>
+                    <option value="/mod/url/view.php?id=39385&amp;forceview=1" >15/MAR: Heaps e heapsort</option>
+                    <option value="/mod/url/view.php?id=39386&amp;forceview=1" >20/MAR:</option>
+                    <option value="/mod/url/view.php?id=39387&amp;forceview=1" >22/MAR: </option>
+                    <option value="/mod/url/view.php?id=39390&amp;forceview=1" >03/ABR: </option>
+                    <option value="/mod/url/view.php?id=39391&amp;forceview=1" >05/ABR: </option>
+                    <option value="/mod/url/view.php?id=39392&amp;forceview=1" >10/ABR: Prova 1</option>
+                    <option value="/mod/url/view.php?id=39393&amp;forceview=1" >12/ABR: </option>
+                    <option value="/mod/url/view.php?id=39394&amp;forceview=1" >17/ABR: </option>
+                    <option value="/mod/url/view.php?id=39395&amp;forceview=1" >19/ABR: </option>
+                    <option value="/mod/url/view.php?id=39396&amp;forceview=1" >24/ABR:  </option>
+                    <option value="/mod/url/view.php?id=39397&amp;forceview=1" >26/ABR:</option>
+                    <option value="/mod/url/view.php?id=39401&amp;forceview=1" >10/MAI:</option>
+                    <option value="/mod/url/view.php?id=39400&amp;forceview=1" >08/MAI:</option>
+                    <option value="/mod/url/view.php?id=39402&amp;forceview=1" >15/MAI: </option>
+                    <option value="/mod/url/view.php?id=39403&amp;forceview=1" >17/MAI: </option>
+                    <option value="/mod/url/view.php?id=39404&amp;forceview=1" >22/MAI: Prova 2</option>
+                    <option value="/mod/url/view.php?id=39405&amp;forceview=1" >24/MAI: </option>
+                    <option value="/mod/url/view.php?id=39408&amp;forceview=1" >05/JUN:</option>
+                    <option value="/mod/url/view.php?id=39409&amp;forceview=1" >07/JUN:</option>
+                    <option value="/mod/url/view.php?id=39410&amp;forceview=1" >12/JUN: </option>
+                    <option value="/mod/url/view.php?id=39411&amp;forceview=1" >14/JUN: </option>
+                    <option value="/mod/url/view.php?id=39424&amp;forceview=1" >19/JUN: </option>
+                    <option value="/mod/url/view.php?id=39412&amp;forceview=1" >21/JUN: </option>
+                    <option value="/mod/url/view.php?id=39413&amp;forceview=1" >26/JUN: </option>
+                    <option value="/mod/url/view.php?id=39414&amp;forceview=1" >28/JUN: </option>
+                    <option value="/mod/url/view.php?id=39415&amp;forceview=1" >03/JUL: Prova 3</option>
+                    <option value="/mod/url/view.php?id=39416&amp;forceview=1" >07/JUL: </option>
+        </select>
+            <noscript>
+                <input type="submit" class="btn btn-secondary" value="Vai">
+            </noscript>
+    </form>
+</div>
+
+        </div>
+</div>
+    <div class="col-md-4">        <div class="pull-right">
+                <a href="https://paca.ime.usp.br/mod/url/view.php?id=38699&forceview=1" id="next-activity-link" class=""  classes="btn btn-link"  title="Syllabus" >Syllabus &#x25B6;&#xFE0E;</a>
+
+        </div>
+</div>
+</div>
+</div>
+                    
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex " aria-hidden="false" tabindex="-1">
+        <nav class="list-group">
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241" data-key="coursehome" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                <div class="m-l-0">
+                        MAC0323 2018
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/user/index.php?id=1241" data-key="participants" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="90" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        Participantes
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/badges/view.php?type=2&amp;id=1241" data-key="badgesview" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        Emblemas
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/admin/tool/lp/coursecompetencies.php?courseid=1241" data-key="competencies" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        Competências
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/grade/report/index.php?id=1241" data-key="grades" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        Notas
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241#section-0" data-key="18597" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Notícias, perguntas e respostas, plantões de dúvidas, ...</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241#section-1" data-key="18835" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Textos</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241#section-2" data-key="18598" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Ambiente de programação: IDE, java-algs4 e C</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241#section-3" data-key="18874" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Projeto</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action font-weight-bold" href="https://paca.ime.usp.br/course/view.php?id=1241#section-4" data-key="18599" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="1" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Exercícios-programa</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241#section-5" data-key="18600" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">COS 226 Data Structures and Algorithms, Princeton</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241#section-6" data-key="18602" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Provas</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241#section-7" data-key="19140" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Provinhas</span>
+                        </div>
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241#section-8" data-key="18601" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="30" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1241">
+                <div class="m-l-0">
+                        <div class="media">
+                            <span class="media-left">
+                                <i class="icon fa fa-folder fa-fw " aria-hidden="true"  aria-label=""></i>
+                            </span>
+                            <span class="media-body">Cronograma</span>
+                        </div>
+                </div>
+            </a>
+        </nav>
+        <nav class="list-group m-t-1">
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/my/" data-key="myhome" data-isexpandable="0" data-indent="0" data-showdivider="1" data-type="1" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" >
+                <div class="m-l-0">
+                        Painel
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/?redirect=0" data-key="home" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                <div class="m-l-0">
+                        Página inicial do site
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/calendar/view.php?view=month&amp;course=1241" data-key="calendar" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="60" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="m-l-0">
+                        Calendário
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/user/files.php" data-key="privatefiles" data-isexpandable="0" data-indent="0" data-showdivider="0" data-type="70" data-nodetype="0" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="1">
+                <div class="m-l-0">
+                        Arquivos privados
+                </div>
+            </a>
+            <div class="list-group-item" data-key="mycourses" data-isexpandable="1" data-indent="0" data-showdivider="0" data-type="0" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="myhome">
+                <div class="m-l-0">
+                    Meus cursos
+                </div>
+            </div>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1243" data-key="1243" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="55">
+                <div class="m-l-1">
+                        MAC0209-2018  Modelagem e Simulação
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=1241" data-key="1241" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="1" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="55">
+                <div class="m-l-1">
+                        MAC0323 2018
+                </div>
+            </a>
+            <a class="list-group-item list-group-item-action " href="https://paca.ime.usp.br/course/view.php?id=989" data-key="989" data-isexpandable="1" data-indent="1" data-showdivider="0" data-type="20" data-nodetype="1" data-collapse="0" data-forceopen="0" data-isactive="0" data-hidden="0" data-preceedwithhr="0" data-parent-key="mycourses">
+                <div class="m-l-1">
+                        MAC0329(1)-2016
+                </div>
+            </a>
+        </nav>
+    </div>
+</div>
+<footer id="page-footer" class="p-y-1 bg-inverse">
+    <div class="container">
+        <div id="course-footer"></div>
+
+
+        <div class="logininfo">Você acessou como <a href="https://paca.ime.usp.br/user/profile.php?id=35196" title="Ver perfil">Vinicius Moreno</a> (<a href="https://paca.ime.usp.br/login/logout.php?sesskey=1Mo0W48IDR">Sair</a>)</div>
+        <div class="tool_usertours-resettourcontainer"></div>
+        <div class="homelink"><a href="https://paca.ime.usp.br/course/view.php?id=1241">MAC0323 2018</a></div>
+        <nav class="nav navbar-nav hidden-lg-up">
+                <ul class="list-unstyled p-t-1">
+                </ul>
+        </nav>
+        <a href="https://download.moodle.org/mobile?version=2017111301.07&amp;lang=pt_br&amp;iosappid=633359593&amp;androidappid=com.moodle.moodlemobile">Obter o aplicativo para dispositivos móveis</a>
+        <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://paca.ime.usp.br/lib/requirejs.php/1520260153/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://paca.ime.usp.br/lib/javascript.php/1520260153/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://paca.ime.usp.br/lib/javascript.php/1520260153/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://paca.ime.usp.br/lib/javascript.php/1520260153/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="https://paca.ime.usp.br/lib/javascript.php/1520260153/lib/requirejs/require.min.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://paca.ime.usp.br/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("pt-BR",{
+ "Play": "Tocar",
+ "Pause": "Pausar",
+ "Current Time": "Tempo",
+ "Duration Time": "Duração",
+ "Remaining Time": "Tempo Restante",
+ "Stream Type": "Tipo de Stream",
+ "LIVE": "AO VIVO",
+ "Loaded": "Carregado",
+ "Progress": "Progresso",
+ "Fullscreen": "Tela Cheia",
+ "Non-Fullscreen": "Tela Normal",
+ "Mute": "Mudo",
+ "Unmute": "Habilitar Som",
+ "Playback Rate": "Velocidade",
+ "Subtitles": "Legendas",
+ "subtitles off": "Sem Legendas",
+ "Captions": "Anotações",
+ "captions off": "Sem Anotações",
+ "Chapters": "Capítulos",
+ "You aborted the media playback": "Você parou a execução do vídeo.",
+ "A network error caused the media download to fail part-way.": "Um erro na rede fez o vídeo parar parcialmente.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "O vídeo não pode ser carregado, ou porque houve um problema com sua rede ou pelo formato do vídeo não ser suportado.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "A execução foi interrompida por um problema com o vídeo ou por seu navegador não dar suporte ao seu formato.",
+ "No compatible source was found for this media.": "Não foi encontrada fonte de vídeo compatível."
+});
+
+    });
+});;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+        require(['jquery'], function($) {
+            $('#jump-to-activity').change(function() {
+                $('#url_select_f5abc10848039711').submit();
+            });
+        });
+    ;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+require(["core/notification"], function(amd) { amd.init(137974, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/zip/inflate.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/zip/unzip.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/ace9/ace.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/ace9/ext-language_tools.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/xterm/term.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/VPLUtil.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/VPLTerminal.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/VPLIDE.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/VPLIDEFile.js"></script>
+<script type="text/javascript" src="https://paca.ime.usp.br/mod/vpl/editor/VPLIDEButton.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima atualiza\u00e7\u00e3o","name":"Nome","error":"Erro","info":"Informa\u00e7\u00e3o","yes":"Sim","no":"N\u00e3o","ok":"OK","cancel":"Cancelar","confirm":"Confirmar","areyousure":"Voc\u00ea tem certeza?","closebuttontitle":"Fechar","unknownerror":"Erro desconhecido"},"repository":{"type":"Tipo","size":"Tamanho","invalidjson":"palavra JSON inv\u00e1lida","nofilesattached":"Nenhum arquivo anexado","filepicker":"Seletor de arquivos","logout":"Sair","nofilesavailable":"Nenhum arquivo dispon\u00edvel","norepositoriesavailable":"Desculpe, nenhum dos seus reposit\u00f3rios atuais pode retornar arquivos no formato solicitado.","fileexistsdialogheader":"Arquivo existe","fileexistsdialog_editor":"Um arquivo com este nome j\u00e1 foi anexado ao texto que voc\u00ea est\u00e1 editando","fileexistsdialog_filemanager":"Um arquivo com este nome j\u00e1 foi anexado","renameto":"Renomear para \"{$a}\"","referencesexist":"H\u00e1 {$a} arquivos pseud\u00f4nimos\/atalhos que usam este arquivo como fonte","select":"Selecione"},"admin":{"confirmdeletecomments":"Voc\u00ea est\u00e1 prestes a excluir coment\u00e1rios, tem certeza?","confirmation":"Confirma\u00e7\u00e3o"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_glossary-autolinker",function() {M.filter_glossary.init_filter_autolinking({"courseid":0});
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"pt-br"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random5abc10848039712'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5abc10848039712'); });
+})();
+//]]>
+</script>
+
+    </div>
+</footer>
+
+</body>
+</html>

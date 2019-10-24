@@ -1,0 +1,21 @@
+abab: +abab
+baaa: +baaa
+aaab: +aaab
+aaba: -aaab/+aaba
+abab: in cache
+baaa: in cache
+abaa: -aaba/+abaa
+aaaa: -abaa/+aaaa
+abab: in cache
+aabb: -aaaa/+aabb
+babb: -aabb/+babb
+babb: in cache
+baba: -abab/+baba
+babb: in cache
+baaa: in cache
+abab: -babb/+abab
+baba: in cache
+baba: in cache
+aabb: -baaa/+aabb
+abab: in cache
+Number of cache misses: 11

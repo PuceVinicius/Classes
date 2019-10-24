@@ -1,0 +1,34 @@
+= form_with model: @atividade, local: true  do |f|
+    - if @atividade.errors.any?
+        %ul.list
+        - @atividade.errors.full_messages.each do |msg|
+            %li.list= msg
+    %table
+        %tr
+            %td
+                = f.label :nome
+            %td
+                = f.text_field :nome
+        %tr
+            %td
+                = f.label :horario_inicio
+            %td
+                = f.text_field :horario_inicio
+        %tr
+            %td
+                = f.label :horario_fim
+            %td
+                = f.text_field :horario_fim
+        %tr
+            %td
+                = f.label :sala
+            %td
+                = f.text_field :sala
+        %tr
+            %td
+                = f.label :professor
+            %td
+                = f.text_field :professor
+
+    = f.submit t(:save), class: "button"
+    = link_to 'Voltar', atividades_path, class: "button buttonBack"

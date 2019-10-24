@@ -1,0 +1,16 @@
+%center
+    %h1 Pronto!
+    %p
+        %i= @atividade.nome
+        começa às
+        %i= @atividade.horario_inicio
+        termina às
+        %i= @atividade.horario_fim
+        será na
+        %i= @atividade.sala
+        e será dada por
+        %i= @atividade.professor
+    %p
+        = link_to 'Editar', edit_atividade_path(@atividade), class: "button"
+        = link_to 'Novo',   new_atividade_path, class: "button"
+        = link_to 'Início',  atividades_path, class: "button"

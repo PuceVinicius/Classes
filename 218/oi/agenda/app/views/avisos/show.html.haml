@@ -1,0 +1,12 @@
+%center
+	%h1 Aviso inserido com sucesso!
+	%p
+		%i= @aviso.title
+		com descrição:
+	%p
+		%i= @aviso.body
+
+	%hr/
+	= link_to 'Editar', edit_aviso_path(@aviso), class: "button"
+	= link_to 'Novo',   new_aviso_path, class: "button"
+	= link_to 'Início',  avisos_path, class: "button"

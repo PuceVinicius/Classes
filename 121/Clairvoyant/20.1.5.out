@@ -1,0 +1,21 @@
+B: +B
+C: +C
+A: +A
+A: in cache
+C: in cache
+E: -C/+E
+B: in cache
+A: in cache
+C: -A/+C
+E: in cache
+D: -C/+D
+E: in cache
+B: in cache
+D: in cache
+C: -E/+C
+B: in cache
+D: in cache
+D: in cache
+B: in cache
+E: -C/+E
+Number of cache misses: 8

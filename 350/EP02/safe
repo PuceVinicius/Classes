@@ -1,0 +1,82 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shapes,positioning,calc}
+\colorlet{lightgray}{gray!20}
+\usepackage{pifont}
+
+
+
+\usepackage{xstring}
+
+%\usepackage{mathtools}
+%\usepackage{graphicx}
+
+\title{MAC0350: Exercício-Programa 2 \\ \small{Dependencias Funcionais, Micro Serviços e
+Serviços}}
+\author{Gabriel Araujo 10297689 \\ Lucas Gaspar 8936892 \\ Vinícius Moreno 10297776}
+\date{30 de Maio de 2019}
+
+
+
+\begin{document}
+\maketitle
+
+
+
+%% Capa
+\newpage
+%% Sumário
+
+
+
+\tableofcontents
+
+
+
+%% Sumário
+\newpage
+%% Relatório
+
+\section{Introdução}
+        \hspace{4mm}
+    Nesta parte do EP, utilizamos diversos conceitos estudados em sala para, primeiramente, normalizar a base de dados e depois conseguir criar as funções CRUD. 
+\section{Dependências Funcionais}
+        \hspace{4mm}
+    Após a normalização da base de dados, as depências funcionais ficaram da seguinte forma: \\
+    
+    \textbf{Entidade}  $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$   Dominio $\:\:\:\:\:\:\:\:\:\:\:\:\:\:$   \emph{Imagem} \\
+    \textbf{Pessoa\_Credenciais} $\:$ ID\_Pessoa \ding{220} \emph{\{Nome, CPF\}}\\
+    \textbf{Pessoa\_Login}  $\:\:\:\:\:\:\:\:\:\:\:\:\:\:$ ID\_Pessoa \ding{220} \emph{\{us\_id\}} \\
+    \textbf{User} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$ us\_id \ding{220} \emph{\{us\_email, us\_password\}} \\
+    \textbf{Perfil} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  Perfil \ding{220} \emph{\{Nome\}} \\
+    \textbf{us\_pf} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  us\_id \ding{220} \emph{\{Perfil\}} \\
+    \textbf{Serviço} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  ID\_Serviço \ding{220} \emph{\{Desc, Nome\}} \\
+    \textbf{pf\_se} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  ID\_Serviço \ding{220} \emph{\{Perfil\}} \\
+    \textbf{Professor} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  ID\_Pessoa \ding{220} \emph{\{NUSP, Especializacao\}} \\
+    \textbf{Aluno} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  ID\_Pessoa \ding{220} \emph{\{NUSP, Curso\}} \\
+    \textbf{Cursa} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  \{ID\_Pessoa, Prd, Disc, NPROF\} \ding{220} \emph{\{Status, Nota,}\emph{ Frequencia\}} \\
+    \textbf{Disciplina\_Oferecimento}  \{Disc\_ID, NPROF, Prd\} \ding{220} \emph{\{Sala, Turma, Monitor, Insti\}} \\
+    \textbf{Disciplina\_Info} $\:\:\:\:\:\:\:\:\:\:\:\:$  Disc\_ID \ding{220} \emph{\{CR\_A, CR\_T, Desc, Nome\}} \\
+    \textbf{Planeja} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  ID\_Pessoa \ding{220} \emph{\{Disc\}} \\
+    \textbf{Periodo\_Disciplina} $\:$$\:\:$  Disc \ding{220} \emph{\{Prd\}} \\
+    \textbf{Modulo} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  \{ID\_Trilha, ID\_Modulo\} \ding{220} \emph{\{Nome\}} \\
+    \textbf{Rel\_Dis\_Mod} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  \{ID\_Modulo, Disc\} \ding{220} \emph{\{Nat\}} \\
+    \textbf{Prereq\_Rel\_Dis\_Mod} \{ID\_Modulo, Disc\} \ding{220} \emph{\{Prereq\}} \\
+    \textbf{Administrador} $\:\:\:\:\:\:\:\:\:\:\:\:$  ID\_Pessoa \ding{220} \emph{\{NUSP, Perfil\}} \\
+    \textbf{Administra} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  \{NUSP, Curso\} \ding{220} \emph{\{Prd\}} \\
+    \textbf{Periodo\_Curriculo} $\:$$\:\:\:$  Curso \ding{220} \emph{\{Prd\}} \\
+    \textbf{Grade\_Curriculo} $\:\:\:\:\:\:\:\:$  Curso \ding{220} \emph{\{Disc\}} \\
+    \textbf{Curriculo} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$ Curso \ding{220} \emph{\{Nome\}} \\
+    \textbf{Trilha} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$  ID\_Trilha \ding{220} \emph{\{Nome\}} \\
+    \textbf{Rel\_Cur\_Tri} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$ \{Curso, ID\_Trilha\} \ding{220} \emph{\{\}} \\
+    \textbf{Disciplinas}\_Rel\_Cur\_Tri \{ID\_Trilha, Curso\} \ding{220} \emph{\{Disciplinas\}} \\
+    \textbf{Oferecimento} $\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:\:$ \{NPROF, Disc, Prd\} \ding{220} \emph{\{\}} \\
+    
+    A forma normal não é aplicável nas relações \emph{Rel\_Cur\_Tri} e \emph{Oferecimento}. Exceto elas, todas as outras relações estão na terceira forma normal \textbf{(3FN)}
+    
+\section{CRUD}
+\section{Funções Complementares}
+
+\end{document}

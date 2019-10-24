@@ -1,0 +1,20 @@
+%center
+	%h1 Editando aviso
+	= form_for :aviso, url: aviso_path(@aviso), method: :patch do |f|
+		- if @aviso.errors.any?
+			- @aviso.errors.full_messages.each do |m|
+				.alert.alert-danger= m
+		%table
+			%tr
+				%td
+					= f.label :title
+				%td
+					= f.text_field :title
+			%tr
+				%td
+					= f.label :body
+				%td
+					= f.text_area :body
+
+		= f.submit({:class => "button"})
+		= link_to 'Voltar', avisos_path, class: "button buttonBack"

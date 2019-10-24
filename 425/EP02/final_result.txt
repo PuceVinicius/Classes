@@ -1,0 +1,2537 @@
+******************************
+Code quality:
+------------------------------
+Code grade: -2.75/10.0	(Code has serious problems)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	27
+refactor:	24
+warning:	454
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+mixed-indentation:	451
+bad-continuation:	15
+useless-super-delegation:	3
+invalid-name:	8
+consider-using-in:	4
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.02/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	12
+refactor:	24
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+useless-super-delegation:	3
+invalid-name:	8
+consider-using-in:	4
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.02/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	12
+refactor:	24
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+useless-super-delegation:	3
+invalid-name:	8
+consider-using-in:	4
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.12/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	8
+refactor:	24
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+useless-super-delegation:	3
+invalid-name:	4
+consider-using-in:	4
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.22/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	4
+refactor:	24
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+useless-super-delegation:	3
+consider-using-in:	4
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Your code does not even import!
+------------------------------
+Unable to perform any check or test
+Grades are:
+Test00: 0.0
+Test01: 0.0
+Test02: 0.0
+******************************
+Code quality:
+------------------------------
+Code grade: 9.24/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	4
+refactor:	23
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+useless-super-delegation:	3
+consider-using-in:	3
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.24/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	4
+refactor:	23
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+useless-super-delegation:	3
+consider-using-in:	3
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.32/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	4
+refactor:	20
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+useless-super-delegation:	3
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.32/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	4
+refactor:	20
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+useless-super-delegation:	3
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.32/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	4
+refactor:	20
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+useless-super-delegation:	3
+too-many-branches:	2
+too-few-public-methods:	5
+no-else-return:	10
+consider-using-enumerate:	4
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.44/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	6
+refactor:	20
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+too-many-branches:	2
+too-few-public-methods:	4
+consider-using-enumerate:	5
+no-else-return:	11
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.40/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	8
+refactor:	20
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+bad-whitespace:	1
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+no-else-return:	11
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.41/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	7
+refactor:	20
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+no-else-return:	11
+too-many-locals:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	10
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+bad-whitespace:	1
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: module 'signal' has no attribute 'SIGALRM'
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Python error: name 'act' is not defined
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test00: 0.0/10.0
+------------------------------
+Part01:
+Python error: name 'act' is not defined
+Test did not concluded
+Receiving grade 0.0 in the test
+Grade in the Test01: 0.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 2.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 6.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 5.5/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 6.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 5.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 5.5/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 5.5/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 5.5/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 6.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 5.5/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 6.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 2.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 2.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 2.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 2.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 4.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 4.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Grade in the Test00: 0.0/10.0
+******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 10.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Grade in the Test00: 0.0/10.0
+******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Grade in the Test00: 0.0/10.0
+******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 10.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	23
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 10.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	23
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 10.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	23
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 2.5/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	23
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	23
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	23
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	23
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	23
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 5.0/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.33/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	23
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 7.5/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.17/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	17
+refactor:	24
+warning:	3
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-in:	1
+consider-using-enumerate:	7
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	8
+too-many-instance-attributes:	1
+no-self-use:	1
+unused-variable:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Test concluded without errors
+Grade in the Test00: 8.0/10.0
+------------------------------
+Part01:
+Test concluded without errors
+Grade in the Test01: 7.5/10.0
+------------------------------
+Part02:
+This autograder does not test Part02
+because we need two instances of AlphaBetaAgent:
+    -One using evaluation_function
+    -One using my_better_evaluation_function
+In order to test your implementation
+you should run both instances against GetClosest
+using different game grids, like the ones
+presented in interesting_grids.txt.
+The agent using my_better should be able to
+get equal or higher score in most of the examples.******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Grade in the Test00: 0.0/10.0
+******************************
+Code quality:
+------------------------------
+Code grade: 9.35/10.0	(Great code quality)
+------------------------------
+Standards deviation:
+statement:	0
+info:	0
+convention:	9
+refactor:	22
+warning:	2
+error:	0
+fatal:	0
+------------------------------
+Deviation description:
+too-many-lines:	1
+useless-super-delegation:	2
+consider-using-enumerate:	6
+too-many-branches:	2
+too-few-public-methods:	4
+invalid-name:	1
+no-self-use:	1
+too-many-locals:	2
+no-else-return:	11
+len-as-condition:	1
+too-many-return-statements:	1
+too-many-statements:	1
+******************************
+Tests:
+------------------------------
+Part00: RandomAgent Improved
+Grade in the Test00: 0.0/10.0

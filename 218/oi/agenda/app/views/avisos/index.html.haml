@@ -1,0 +1,33 @@
+%center
+	%ul
+		%li
+			%a{:href => "../"} Home
+		%li
+			%a{:href => "../atividades"} Atividades
+		%li
+			%a.active{:href => "../avisos"} Mural de avisos
+	%h2 Avisos importantes
+	%table{border: 2}
+		%tr
+			%th Título
+			%th Corpo
+			%th 
+			%th 
+
+		- @avisos.each do |aviso|
+			%tr
+				%td= aviso.title
+				%td= aviso.body
+				%td
+					= link_to "Editar", edit_aviso_path(aviso),
+					class: "button buttonEdit"
+					%span.glyphicon.glyphicon-pencil
+				%td
+					= link_to "Apagar", aviso_path(aviso), method: :delete,
+					data: {confirm: 'Deseja mesmo apagar esse aviso?'},
+					class: "button buttonDelete"
+				/%td
+				/	= link_to "Aviso completo", aviso_path(aviso), 
+				/	class: "button buttonEdit"
+
+	= link_to 'Novo aviso', new_aviso_path, class: "button buttonNew"
